@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 IT is a framework which will be useful for performing the different surveys.
                    DESC
   s.homepage         = "https://github.com/Akshay898989/SSSurvey2"
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { "akshay.gupta8989" => "akshay.gupta8989@gmail.com" }
   s.source           = { :git => "https://github.com/Akshay898989/SSSurvey2.git", :tag => s.version }
 
